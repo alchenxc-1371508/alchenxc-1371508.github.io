@@ -1,0 +1,67 @@
+<!--
+  Alex Chen
+
+  Level 1: Newbie. Show us a page that has:
+  Two paragraphs that each have a different font.
+  Two pictures that were originally different sizes, resized to 50px by 50px.
+  One more unique CSS command that was not discussed in the workshop
+
+  Level 2: Apprentice. Show us a page that has:
+  Text that is centered on a photo
+  A photo with 20 pixel margins on each side
+  Text with a border that uses dotted lines
+
+  Level 3: Master. Show us a page that has:
+  An external style sheet
+  A floated element
+  An element with rounded border corners
+-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="anExternal.css">.
+    <title>someCss</title>
+  </head>
+
+  <body>
+    <h4> Alex's Website</h4>
+    <h1>Two Paragraphs with Different Fonts</h1>
+    <div id="p1">
+      <p> This paragraph has one font
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac ultrices nulla, vitae faucibus odio. Nunc et magna ut orci hendrerit mollis eu a erat.
+      </p>
+    </div>
+
+    <div id="p2">
+      <p> This paragrph has another font
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac ultrices nulla, vitae faucibus odio. Nunc et magna ut orci hendrerit mollis eu a erat.
+      </p>
+    </div>
+
+    <h1>2 Pictures Resized to 50x50</h1>
+    <div class="pic">
+      <img src="https://lafeber.com/pet-birds/wp-content/uploads/cockatiel-253x300.jpg" title="Cockatiel">
+      <div class="text">Birds Chirp</div>
+    </div>
+    <div class="pic">
+      <img src="https://alaskabirdblog.files.wordpress.com/2013/02/redpoll-fat700-1.jpg" title="RedPoll">
+    </div>
+
+    <h2>Bordered Text</h2>
+    <h3>This is bordered text with a dotted border</h3>
+
+    <!-- Centering Text on Image -->
+    <div class="gallery">
+      <div class="gallery-image">
+        <img src="http://37.media.tumblr.com/bddaeb8fe12eda6bb40cf6a0a18d9efa/tumblr_n8zm8ndGiY1st5lhmo1_1280.jpg" width="300" height="200" />
+        <div class="gallery-text">
+          <h3>Centered Text</h3>
+        </div>
+      </div>  
+    </div>
+
+
+  </body>
+<html>
